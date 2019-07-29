@@ -35,7 +35,7 @@ const mapStateToProps = (state) => ({
   artists: state.artists
 });
 
-const mapDispatchToProps = (dispatch)=> ({
+const mapDispatchToProps = (dispatch) => ({
   addArtists: artists => dispatch(addArtists(artists))
 });
 
